@@ -1,4 +1,5 @@
 # Fun mini section project. Modified from zybooks slightly
+# Modifiying inputed numbers that are entered into a list, then sorting for odds and negatives.
 
 
 size = 5
