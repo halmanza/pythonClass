@@ -4,7 +4,7 @@
 def name_formatter():
     entire_name= input('Enter your first name middle name(optional) last name:\n')
     collector= entire_name.split()
-    # If entry of name is 3 names long (First,Middle,Almanza)
+    # If entry of name is 3 names long (First,Middle,Last)
     if len(collector) == 3:
       for x in range(0,1):
         for x in range(2,len(collector)):
@@ -16,9 +16,8 @@ def name_formatter():
       print('\n{last}, {first_inital}.{middle_initial}'.format(last=last_name, first_inital=initials, middle_initial=middle))
     # If entry of name is 2 names long(first,last)
     elif len(collector) == 2:
-        for name in collector[1]:
-          first= name.capitalize()
-        print('\n{}, {}.'.format(collector[1].capitalize(),first))      
+        first= collector[0][0]
+        print('\n{}, {}.'.format(collector[1].capitalize(),first.capitalize()))
      
     else:
       if len(collector) > 3 or len(collector) <= 1:
