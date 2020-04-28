@@ -1,3 +1,9 @@
+
+# Anthony Almanza
+# Chapter 9
+
+
+
 class ItemToPurchase:
   item_name= str()
   item_price= float()
