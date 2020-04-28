@@ -36,6 +36,7 @@ def process():
       quantitiy_input=input('Enter the item quantity: \n')
       item1.item_quantity= int(quantitiy_input)
       print()
+
       for s in range(0,1):
         print('Item {}'.format(r + 2))
         user_entry= input('Enter the item name: \n')
@@ -46,6 +47,7 @@ def process():
         quantitiy_input=input('Enter the item quantity: \n')
         item2.item_quantity= float(quantitiy_input)
         print()
+        
     print('TOTAL COST \n')    
     item1.print_item_cost()
     item2.print_item_cost()
