@@ -26,11 +26,7 @@ def process():
     item1=ItemToPurchase()
     item2=ItemToPurchase()
     
-    """ Hi professor,
-     I was curious if there's a more
-    elegant solution to implement the same function without using two for loops?
-    I was initally thinking a dictionary would make this simpler, but then realized I could create different
-    class instances to act as key-value pairs. I'd appreciate any suggestions, Thank you! """
+    
 
     for r in range(0,1):
       print('Item {}'.format(r + 1))
