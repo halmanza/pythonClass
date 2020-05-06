@@ -9,7 +9,7 @@ def get_age():
        
     return age
 
-# TODO: Complete fat_burning_heart_rate() function
+
 def fat_burning_heart_rate(age):
     heart_rate= (220*.7) - age
     20
